@@ -1,0 +1,16 @@
+{
+    "name": "Rails Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [3000],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "rebornix.Ruby",
+      "castwide.solargraph",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+  
