@@ -12,6 +12,6 @@ WORKDIR /workspace
 COPY Gemfile Gemfile.lock ./
 
 RUN gem install bundler && \
-    bundle install || true
+    bundle install
 
 EXPOSE 3000
